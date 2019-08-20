@@ -1,9 +1,13 @@
-﻿################################################################################
-# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
-################################################################################
-
-/interactive.py
-/setup.py
+/test.py
+/dist
+/cinrad.egg-info
+/build
 *.pyc
-/.vs/*
-*.npy
+/.vs
+.idea/*
+*.ui
+/.vscode
+/cinrad/_utils.c
+/cinrad/correct/_unwrap_2d.c
+/.mypy_cache/*
+*.spec
